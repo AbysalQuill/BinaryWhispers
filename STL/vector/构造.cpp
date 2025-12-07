@@ -3,7 +3,7 @@
 using namespace std;
 int main(){
     vector<int>v1;//空vector
-    vector<int>v2(5,10.0);
+    vector<int>v2(5,10);
     vector<int>v3={1,2,3,4,5};
     vector<int>v4(v3);
     vector<int>v5(v4.begin(),v4.end());
