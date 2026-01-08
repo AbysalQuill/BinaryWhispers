@@ -6,7 +6,6 @@ typedef struct LNode
     ElemType data;
     struct LNode *next;
 } LNode,*LinkList;
-
 //对于传引用，也可写成二级指针即struct LNode **L
 bool InitList(LinkList &L)//传引用头结点
 {
