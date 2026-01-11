@@ -6,6 +6,22 @@
         "string_view": "cpp",
         "ranges": "cpp",
         "span": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "chrono": "cpp",
+        "random": "cpp",
+        "bitset": "cpp",
+        "flat_map": "cpp",
+        "flat_set": "cpp",
+        "initializer_list": "cpp",
+        "stacktrace": "cpp",
+        "regex": "cpp",
+        "valarray": "cpp",
+        "barrier": "cpp",
+        "latch": "cpp",
+        "limits": "cpp",
+        "semaphore": "cpp",
+        "vector": "cpp",
+        "format": "cpp",
+        "numeric": "cpp"
     }
 }

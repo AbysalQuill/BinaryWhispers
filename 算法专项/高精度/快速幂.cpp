@@ -1,19 +1,18 @@
 #include <bits/stdc++.h>
 using namespace std;
-unsigned long long quickPow(long long a,long long b){
-    long long res=1;
-    while (b)
+unsigned long long quickPow(long long b,long long p){
+    unsigned long long res=1;
+    while (p)
     {
-        if (b&1) res=res*a;
-        a=a*a;
-        b>>=1;
+        if (p&1) res*=b;
+        b*=b;
+        p>>=1;
     }
     return res;
 }
-
 int main(){
-    long long a,b;
-    cin>>a>>b;
-    cout<<quickPow(a,b)<<endl;
+    long long b,p;
+    cin>>b>>p;
+    cout<<quickPow(b,p)<<endl;
     return 0;
 }

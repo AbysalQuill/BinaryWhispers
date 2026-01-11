@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h>
 using namespace std;
 string multiply(string a,string b){
     vector<int> result(a.size()+b.size(),0);
@@ -16,9 +16,13 @@ string multiply(string a,string b){
             str.push_back(result[i]+'0');
     }
     return str.empty()?"0":str;
-} int main(){
-    string a,b;
-    cin>>a>>b;
-    cout<<multiply(a,b)<<endl;
+}
+
+int main(){
+    int n;
+    cin>>n;
+    string fact="1";
+    for(int i=1;i<=n;i++) fact=multiply(fact,to_string(i));
+    cout<<fact.size()<<endl;
     return 0;
 }

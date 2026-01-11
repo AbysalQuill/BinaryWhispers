@@ -12,7 +12,6 @@ void bitReverse(vector<cd>& a){
         if (i<j) swap(a[i],a[j]);
     }
 }
-
 // FFT核心：inv=0正变换，inv=1逆变换
 //
 void fft(vector<cd>& a, bool inv) {
