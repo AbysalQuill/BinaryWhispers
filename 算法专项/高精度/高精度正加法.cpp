@@ -11,9 +11,9 @@ string add(string a,string b){
         carry=tmp/10;
     }
     reverse(result.begin(),result.end());
+    while (result[0]=='0'&&result.size()>1) result.erase(result.begin());
     return result;
 }
-
 int main(){
     string a,b;
     cin>>a>>b;
