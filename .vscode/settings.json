@@ -31,6 +31,9 @@
         "generator": "cpp",
         "text_encoding": "cpp",
         "tuple": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "ratio": "cpp",
+        "source_location": "cpp",
+        "*.tcc": "cpp"
     }
 }

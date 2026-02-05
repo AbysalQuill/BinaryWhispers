@@ -1,6 +1,5 @@
 #include <bits/stdc++.h>
 using namespace std;
-
 int fib(int n){
     int prev=0,curr=1,next;
     if (n==0) return 0;
@@ -12,7 +11,6 @@ int fib(int n){
     }
     return next;
 }
-
 int main(){
     int n;
     cin>>n;
